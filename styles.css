@@ -1,2 +1,33 @@
 
 /* Your CSS Code here. */
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    height: 80%;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+#btn{
+    display: flex;
+    justify-content: space-around;
+     
+}
+#load_prev, #load_next {
+    padding: 10px;
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
